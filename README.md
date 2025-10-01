@@ -17,7 +17,7 @@ https://dl.espressif.com/dl/package_esp32_index.json, http://arduino.esp8266.com
 ```
 Then go to the Tools -> Board -> Boards Manager... and in the search bar, search for "esp8266". There should be an "esp8266" named package by the ESP8266 Community. Select the latest version and install it.
 
-For handling the DS18B20 sensor, we also need a library, to get that, go to the Tools -> Manage Libraries... and in the search bar, search for "onewire". There should be a "One Wire" named library by Jim Studt, Tom Pollard and others. Select the latest version and install it.
+For handling the DS18B20 sensor, we also need a library, to get that, go to the Tools -> Manage Libraries... and in the search bar, search for "onewire". There should be a "One Wire" named library by Jim Studt, Tom Pollard and others. Select the 2.3.7 version and install it.
 
 ## Configuration
 Before uploading the code to the ESP-01 module, the name of the module and the Wifi network details, and other parameters are needs to be set. These settings are in the config.hpp file.
